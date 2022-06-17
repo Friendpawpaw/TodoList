@@ -1,1 +1,25 @@
+/* todolist style */
+.boxSize {
+  height: 600px;
+  width: 100%;
+  margin: 30px 25px;
+  padding: 0px !important;
+}
+.todoListHeader {
+  padding: 15px;
+  margin: 20px 20px 0 20px;
+}
+.todoListBox {
+  padding: 5px;
+  margin: 0 50px;
+}
+.containerBorder {
+  border-top: solid 2px grey;
+  border-bottom: solid 2px grey;
+}
+.todoListContainer {
+  overflow: scroll;
+  height: 100%;
+}
 
+/* todolist style */
