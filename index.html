@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,6 +10,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -19,42 +21,39 @@
     integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
     crossorigin="anonymous"></script>
   <title>My Todo List</title>
-  
+
 </head>
-  <!-- start of header -->
- <body>
+<!-- start of header -->
+
+<body style="background-color:#C2EEE6;">
+  
+  <div class="container">
     <header>
-      <button type="button" class="btn float-right btn-circle btn-outline-info">Log In </button>
+      <button class="button" ><h7>Log In</h7> </button>
     </header>
     <br>
-    <h1 class="text-center">My Todo List</h1>
- 
-   <div class="container">
+    <h1 class="text-center" style="Lucida Console">My Todo List</h1>
+
+    <div class="container">
       <section class="col-sm-12">
         <div class="form-group">
-            <div class='input-group date' id='datetimepicker1'>
-                <input type='text' class="form-control" />
-                <span class="input-group-addon">
-                    <span class="fa-solid fa-calendar-day"></span>
-                </span>
-                <button type="button" class="btn btn-circle btn-outline-info">Add</button>
-            </div>
+          <div class='input-group date' id='datetimepicker1'>
+            <input type='date' class="form-control" />
+            <button type="button" class="btn btn_size btn-outline-info" style="background-color:#F1C3F2">Add</button>
           </div>
+        </div>
       </section>
-   </div>
-    <script type="text/javascript">
-        $(function() {
-            $('#datetimepicker1').datetimepicker();
-        });
-    </script>
+    </div>
+
+  </div>
   <!-- end of header -->
 
   <!-- start of TodoList: Andy -->
-  <div class="container bg-success containerBorder">
+  <div class="container containerBorder" style="background-color:#C2EEE6;">
     <div class="row">
       <!-- Todo List -->
       <div class="col bg-white boxSize boxSize1">
-        <h4 class="text-center bg-success">
+        <h4 class="text-center" style="background-color:#C2EEE6;">
           <i class="fa-solid fa-ellipsis"></i>
           Todo List
           <i class="fa-solid fa-ellipsis"></i>
@@ -113,7 +112,7 @@
       <!-- Todo List -->
       <!-- Finish -->
       <div class="col bg-white boxSize">
-        <h4 class="text-center bg-success">
+        <h4 class="text-center" style="background-color:#C2EEE6;">
           <i class="fa-solid fa-star-and-crescent"></i>
           Finish
           <i class="fa-solid fa-star-and-crescent"></i>
@@ -190,7 +189,8 @@
             <p class="card-text text-left" id="memo">Hi, I am Memo :)</p>
           </div>
           <div class="card-footer">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalBox" onclick="editMemo()">Edit</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalBox"
+              onclick="editMemo()">Edit</button>
           </div>
         </div>
       </div>
@@ -208,9 +208,15 @@
       }
     }
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
 
 </body>
 
