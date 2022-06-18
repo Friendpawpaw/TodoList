@@ -1,8 +1,27 @@
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Sofia", sans-serif;
+}
+
+
+
+h1{
+  color:#006C59
+}
+
 /* header btn */
-.btn-circle {
-    width: 80px;
-    height: 40px;
-    border-radius: 30px;
+.button {
+  width: auto;
+  height: auto;
+  border-radius: 45%;
+  border: none;
+  text-align: center;
+  background-color:#F1C3F2;
+  color:#660085;
+  float: right;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
 }
 
 /* todolist style */
@@ -12,22 +31,25 @@
   margin: 30px 25px;
   padding: 0px !important;
 }
+
 .todoListHeader {
   padding: 15px;
   margin: 20px 20px 0 20px;
 }
+
 .todoListBox {
   padding: 5px;
   margin: 0 50px;
 }
+
 .containerBorder {
   border-top: solid 2px grey;
   border-bottom: solid 2px grey;
 }
+
 .todoListContainer {
   overflow: scroll;
   height: 100%;
 }
 
 /* todolist style */
-
