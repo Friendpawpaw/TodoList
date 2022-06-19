@@ -5,7 +5,9 @@ body {
 h1 {
   color: #006c59;
 }
-
+h3 {
+  margin: 0;
+}
 .container_head {
   padding: 30px 30px;
 }
@@ -53,7 +55,7 @@ h1 {
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: #dddddd;
+  background-color: #e7fffb;
   font-size: 16px;
   resize: none;
 }
@@ -103,9 +105,8 @@ h1 {
 
 .todoListContainer {
   height: 100%;
-  border-top: 2px white solid !important;
-  border-radius: 30px !important;
 }
+
 /****** todolist style ******/
 
 /****** Carousel  style: Chloe ******/
