@@ -52,7 +52,29 @@ h3 {
   background-color: #f2c1f3;
   color: white;
 }
-
+.button2 {
+  width: 80px;
+  height: 30px;
+  border-radius: 35%;
+  border: none;
+  text-align: center;
+  background-color: #f1c3f2;
+  color: #660085 !important;
+  float: right;
+  transition-duration: 0.4s;
+  font-size: small;
+  margin-left: 5px;
+}
+.button2:hover,
+.ClickMeButton:hover {
+  background-color: #f2c1f3;
+  color: white;
+}
+.ClickMeButton {
+  color: black;
+  text-decoration: none !important;
+  transition-duration: 0.4s;
+}
 .textareaInHeader {
   width: 80%;
   height: 150px;
