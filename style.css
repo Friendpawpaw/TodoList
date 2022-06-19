@@ -1,27 +1,50 @@
-
-h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Sofia", sans-serif;
 }
 
+h1 {
+  color: #006C59
+}
 
-
-h1{
-  color:#006C59
+.container_head {
+  padding: 30px 30px;
 }
 
 /* header btn */
 .button {
-  width: auto;
-  height: auto;
-  border-radius: 45%;
+  width: 60px;
+  height: 30px;
+  border-radius: 35%;
   border: none;
   text-align: center;
-  background-color:#F1C3F2;
-  color:#660085;
+  background-color: #F1C3F2;
+  color: #660085;
   float: right;
+  transition-duration: 0.4s;
+  font-size: small;
+}
+
+.button:hover {
+  background-color: #f2c1f3;
+  color: white;
+}
+
+.button1 {
+  width: 50px;
+  height: 35px;
+  border-radius: 35%;
+  border: none;
+  text-align: center;
+  background-color: #F1C3F2;
+  color: #660085;
   margin: 4px 2px;
   transition-duration: 0.4s;
+  font-size: small;
+}
+
+.button1:hover {
+  background-color: #f2c1f3;
+  color: white;
 }
 
 /****** todolist style: Andy ******/
@@ -43,7 +66,7 @@ h1{
 }
 
 .containerBorder {
-  border-top: solid 2px grey;
+  border-top: solid 2px rgb(194, 194, 194);
   border-bottom: solid 2px grey;
 }
 
@@ -70,7 +93,7 @@ h1{
   right: 5% !important;
   bottom: 0 !important;
   text-align: right !important;
-  }
+}
 
 /* carousel upload button hover style */
 .carousel-caption .custom-file h4:hover {
