@@ -24,7 +24,7 @@ h1{
   transition-duration: 0.4s;
 }
 
-/* todolist style */
+/****** todolist style: Andy ******/
 .boxSize {
   height: 600px;
   width: 100%;
@@ -48,8 +48,33 @@ h1{
 }
 
 .todoListContainer {
-  overflow: scroll;
   height: 100%;
 }
+/****** todolist style ******/
 
-/* todolist style */
+/****** Carousel  style: Chloe ******/
+/* carousel item fix size */
+.carousel-item {
+  height: 360px;
+}
+
+/* carousel img fix size */
+.carousel-item img {
+  min-height: 360px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* carousel upload button align right */
+.carousel-caption {
+  right: 5% !important;
+  bottom: 0 !important;
+  text-align: right !important;
+  }
+
+/* carousel upload button hover style */
+.carousel-caption .custom-file h4:hover {
+  color: lightgray !important;
+  cursor: pointer;
+}
+/****** Carousel  style ******/
