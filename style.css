@@ -1,15 +1,15 @@
-
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Sofia", sans-serif !important;
+  font-family: "Sofia", sans-serif;
 }
 
-h1{
-  color:#006C59
+h1 {
+  color: #006C59
 }
 
-.container_head{
+.container_head {
   padding: 30px 30px;
 }
+
 /* header btn */
 .button {
   width: 60px;
@@ -17,34 +17,37 @@ h1{
   border-radius: 35%;
   border: none;
   text-align: center;
-  background-color:#F1C3F2;
-  color:#660085;
+  background-color: #F1C3F2;
+  color: #660085;
   float: right;
   transition-duration: 0.4s;
   font-size: small;
 }
-.button:hover{
+
+.button:hover {
   background-color: #f2c1f3;
   color: white;
 }
+
 .button1 {
   width: 50px;
   height: 35px;
   border-radius: 35%;
   border: none;
   text-align: center;
-  background-color:#F1C3F2;
-  color:#660085;
+  background-color: #F1C3F2;
+  color: #660085;
   margin: 4px 2px;
   transition-duration: 0.4s;
   font-size: small;
 }
-.button1:hover{
+
+.button1:hover {
   background-color: #f2c1f3;
-  color: white; 
+  color: white;
 }
 
-/* todolist style */
+/****** todolist style: Andy ******/
 .boxSize {
   height: 600px;
   width: 100%;
@@ -68,8 +71,33 @@ h1{
 }
 
 .todoListContainer {
-  overflow: scroll;
   height: 100%;
 }
+/****** todolist style ******/
 
-/* todolist style */
+/****** Carousel  style: Chloe ******/
+/* carousel item fix size */
+.carousel-item {
+  height: 360px;
+}
+
+/* carousel img fix size */
+.carousel-item img {
+  min-height: 360px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* carousel upload button align right */
+.carousel-caption {
+  right: 5% !important;
+  bottom: 0 !important;
+  text-align: right !important;
+}
+
+/* carousel upload button hover style */
+.carousel-caption .custom-file h4:hover {
+  color: lightgray !important;
+  cursor: pointer;
+}
+/****** Carousel  style ******/
