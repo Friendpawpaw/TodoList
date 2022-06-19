@@ -3,7 +3,8 @@ body {
 }
 
 h1,
-.ButtonColor {
+.ButtonColor,
+h3 {
   color: #006c59;
 }
 h3 {
@@ -134,7 +135,7 @@ h3 {
 
 .containerBorder {
   border-top: solid 2px rgb(194, 194, 194);
-  border-bottom: solid 2px grey;
+  border-bottom: solid 2px rgb(194, 194, 194);
 }
 
 .todoListContainer {
