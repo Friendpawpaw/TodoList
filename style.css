@@ -64,9 +64,14 @@ h3 {
   font-size: 16px;
   resize: none;
 }
-.textareaInHeader:focus {
+.textareaInHeader:focus,
+.ColorChange:focus {
   background-color: white;
   border: 2px solid black;
+}
+.ColorChange {
+  background-color: #e7fffb;
+  border: 2px solid #ccc;
 }
 /****** todolist style: Andy ******/
 .boxSize {
@@ -88,6 +93,7 @@ h3 {
   border: 0;
   background-color: #e7fffb;
   color: black;
+  padding: 6px 12px;
   transition: background-color 1s ease-in-out 50ms, color 1s ease-in-out 50ms;
 }
 .todoListButton:hover {
