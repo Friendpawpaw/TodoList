@@ -1,9 +1,4 @@
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+body {
   font-family: "Sofia", sans-serif;
 }
 
@@ -76,15 +71,16 @@ h1 {
   padding: 15px;
   margin: 20px 20px 0 20px;
   border-radius: 20px !important;
+  background-color: #63f2d8;
 }
 .todoListButton {
   border: 0;
-  background-color: red;
+  background-color: #e7fffb;
   color: black;
   transition: background-color 1s ease-in-out 50ms, color 1s ease-in-out 50ms;
 }
 .todoListButton:hover {
-  background-color: blue;
+  background-color: #63f2d8;
   color: white;
 }
 
@@ -93,6 +89,7 @@ h1 {
   margin: 0 50px;
   border-bottom-left-radius: 20px !important;
   border-bottom-right-radius: 20px !important;
+  background-color: #e7fffb;
 }
 
 .containerBorder {
