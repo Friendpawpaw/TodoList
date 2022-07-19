@@ -1,8 +1,12 @@
 //Edit memo text function: Chloe
+let memoID = document.getElementById("memo");
+memoID.innerHTML = localStorage.getItem('memo');
+
 function editMemo() {
   let memoText = prompt("Write your memo!", "Hi, I am Memo :)");
-  if (memo != null) {
-    document.getElementById("memo").innerHTML = memoText;
+  if (memoText != null) {
+    memoID.innerHTML = memoText;
+    localStorage.setItem('memo', memoText);
   }
 }
 
